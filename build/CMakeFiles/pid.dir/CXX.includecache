@@ -1,0 +1,88 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Siddharth Singi/SDCND/Term-2/CarND-PID-Control-Project/src/PID.cpp
+PID.h
+/mnt/c/Users/Siddharth Singi/SDCND/Term-2/CarND-PID-Control-Project/src/PID.h
+
+/mnt/c/Users/Siddharth Singi/SDCND/Term-2/CarND-PID-Control-Project/src/PID.h
+
+/mnt/c/Users/Siddharth Singi/SDCND/Term-2/CarND-PID-Control-Project/src/json.hpp
+algorithm
+-
+array
+-
+cassert
+-
+cctype
+-
+ciso646
+-
+cmath
+-
+cstddef
+-
+cstdint
+-
+cstdlib
+-
+cstring
+-
+forward_list
+-
+functional
+-
+initializer_list
+-
+iomanip
+-
+iostream
+-
+iterator
+-
+limits
+-
+locale
+-
+map
+-
+memory
+-
+numeric
+-
+sstream
+-
+stdexcept
+-
+string
+-
+type_traits
+-
+utility
+-
+vector
+-
+
+/mnt/c/Users/Siddharth Singi/SDCND/Term-2/CarND-PID-Control-Project/src/main.cpp
+uWS/uWS.h
+-
+iostream
+-
+stdlib.h
+-
+json.hpp
+/mnt/c/Users/Siddharth Singi/SDCND/Term-2/CarND-PID-Control-Project/src/json.hpp
+PID.h
+/mnt/c/Users/Siddharth Singi/SDCND/Term-2/CarND-PID-Control-Project/src/PID.h
+math.h
+-
+chrono
+-
+ctime
+-
+
