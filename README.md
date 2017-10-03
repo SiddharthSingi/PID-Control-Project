@@ -16,8 +16,8 @@ I used the python code here to test out dfferent values
 |--------	|------	|-------- 
 |  2.50, 30.7, 0.012 	|link|horrible driving
 |0.25, 3.39, 0.007	| link	|proportional value too large, derivative too small 
-| 0.139, 2.36, 0.003	|link|movements are still too edgy\n hence derivative must be increased
-| 0.139, 3.0, 0.001 |final video| movements are much smoother and\n reducing the Ki value has decreased sudden movements
+| 0.139, 2.36, 0.003	|link|movements are still too edgy__ hence derivative must be increased
+| 0.139, 3.0, 0.001 |final video| movements are much smoother and__ reducing the Ki value has decreased sudden movements
 ---
 
 ## Dependencies
