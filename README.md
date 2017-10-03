@@ -6,21 +6,18 @@ Self-Driving Car Engineer Nanodegree Program
 In this project I had to implement a Proportional Integral Differential (PID) Control in C++ to drive a car simulator around a virtual track as safely as possible. The simulator provides the cross track error. I tuned the PID parameters using twiddle algorithm to find the best possible paramter values.
 
 ## Finding the best parameter values:
-steer_value = -(Kp\*p_error + Ki\*i_error + Kd\*d_error)
+steer_value = -(Kp\*p_error + Ki\*i_error + Kd\*d_error)\n
 Here Kp , Ki, and Kd are the coefficients I need to tune.
 I used the python code here to test out dfferent values
-
-| p	| dp	| error |	params |	video link	| statement |									
-| :------------- |:-------------:| :-----:||:-------------:||:-------------:||-------------:|
-| [0.2, 3.0, 0.0002]	| [0.01, 0.1, 0.00002] |	2.89E-07	| 2.5049658161681467 30.773538499426145 0.012052479176125971 | | |																						
+																
 
 
-|params 	|  video link 	|  interpretation  
+|params (P, D, I) 	|  video link 	|  interpretation  
 |--------	|------	|-------- 
-|  2.50 30.7 0.012 	|link|horrible driving
-|0.25 3.39 0.007	| link	|proportional value too large, derivative too small 
-| 0.139 2.36 0.003	|link|movements are still too edgy hence derivative must be increased
-| 0.139 3.0 0.001 |final video| movements are much smoother and reducing the Ki value has decreased sudden movements
+|  2.50, 30.7, 0.012 	|link|horrible driving
+|0.25, 3.39, 0.007	| link	|proportional value too large, derivative too small 
+| 0.139, 2.36, 0.003	|link|movements are still too edgy\n hence derivative must be increased
+| 0.139, 3.0, 0.001 |final video| movements are much smoother and\n reducing the Ki value has decreased sudden movements
 ---
 
 ## Dependencies
