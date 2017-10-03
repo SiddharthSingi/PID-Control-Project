@@ -15,11 +15,11 @@ I used the python code here to test out dfferent values
 | [0.2, 3.0, 0.0002]	| [0.01, 0.1, 0.00002] |	2.89E-07	| 2.5049658161681467 30.773538499426145 0.012052479176125971 | | |																						
 
 
-|  p 	|  dp 	|  error 	|  params 	|  video link 	|  interpretation  |
-|-----	|--------	|-------------	|--------	|------	|-------- |
-| [0.2, 3.0, 0.0002]  	|  [0.01, 0.1, 0.00002] 	|  2.89E-07 	|  2.50 30.7 0.012 	|   	|    |
-| [0.2, 3.0, 0.01] |	[0.01, 0.1, 0.002] |	2.17E-09	| 0.25 3.39 0.007	| increase_derivative	|proportional value too large, derivative too small|
-|   	|   	|   	|   	|   	|    |
+|params 	|  video link 	|  interpretation  
+|--------	|------	|-------- 
+|  2.50 30.7 0.012 	|   	|    
+|0.25 3.39 0.007	|increase derivative	|proportional value too large, derivative too small |
+|   	|   	|   	|    
 ---
 
 ## Dependencies
