@@ -22,12 +22,12 @@ The following table shows how I changed the PID parameters to get the final resu
 																
 
 
-|params (P, D, I) 	|  video link 	|  interpretation  
+|params (P, I, D) 	|  video link 	|  interpretation  
 |--------	|------	|-------- 
-|  2.50, 0.012,  30.7	|link|horrible driving
-|0.25, 0.07, 3.39| link	|proportional value too large,<br />  derivative too small 
-| 0.139, 0.003, 2.36	|link|movements are still too edgy <br /> hence derivative must be increased
-| 0.139, 0.001, 3.0 |final video| movements are much smoother and <br /> reducing the Ki value has decreased sudden movements
+|  2.50, 0.012,  30.7	|[link](https://youtu.be/RskypsqRM40)|horrible driving
+|0.25, 0.07, 3.39| [link](https://youtu.be/KG7jk7mn3M4)	|proportional value too large,<br />  derivative too small 
+| 0.139, 0.003, 2.36	|[link](https://youtu.be/PDbw9-5ntvU)|movements are still too edgy <br /> hence derivative must be increased
+| 0.139, 0.001, 3.0 |[final video](https://youtu.be/az2kWMrWVzM)| movements are much smoother and <br /> reducing the Ki value has decreased sudden movements
 ---
 
 ## Dependencies
