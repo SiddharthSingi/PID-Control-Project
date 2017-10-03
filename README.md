@@ -6,9 +6,19 @@ Self-Driving Car Engineer Nanodegree Program
 In this project I had to implement a Proportional Integral Differential (PID) Control in C++ to drive a car simulator around a virtual track as safely as possible. The simulator provides the cross track error. I tuned the PID parameters using twiddle algorithm to find the best possible paramter values.
 
 ## Finding the best parameter values:
-steer_value = -(Kp\*p_error + Ki\*i_error + Kd\*d_error)\n
+### Steer_Value = -(Kp\*p_error + Ki\*i_error + Kd\*d_error)<br />
 Here Kp , Ki, and Kd are the coefficients I need to tune.
-I used the python code here to test out dfferent values
+I used the python code [here](https://github.com/SiddharthSingi/PID-Control-Project/blob/master/Twiddle) to test out dfferent values
+
+The images below describe how different coefficient values have different effects.Besides twiddle, I also used these techniques to select the correct parameters manually
+
+![screenshot 155](https://user-images.githubusercontent.com/26694585/31122459-9508ccdc-a859-11e7-88a0-9cd97821f8d0.png)
+
+![screenshot 156](https://user-images.githubusercontent.com/26694585/31122463-99d13f60-a859-11e7-9d5d-7caca596c53a.png)
+
+
+
+The following table shows how I changed the PID parameters to get the final result
 																
 
 
